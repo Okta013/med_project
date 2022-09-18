@@ -29,86 +29,110 @@
     </header>
 
     <section class="contacts_content">
-        <div class="row">
-            <div class="col-12>">
-                <h1 class="text-center mb-5">Как обратиться в клинику СмартМедикал</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xl-4 col-md-6 col-sm-12">
-                <h2 class="text-center">Наш адрес</h2>
-                <p class="text-center">г.Ульяновск, ул.Красноармейская, 24</p>
-                <p class="text-center">Мы находимся рядом с остановкой "Красногвардейская"</p>
-            </div>
-            <div class="col-xl-4 col-md-6 col-sm-12">
-                <h2 class="text-center">Наш телефон для записи на прием</h2>
-                <p class="text-center">8(8422)42-30-69</p>
-                <div class="col text-center">
-                    <a class="btn btn-primary" href="appointment.html" role="button">Запись на сайте</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-12>">
+                    <h1 class="text-center mb-5">Как обратиться в клинику СмартМедикал</h1>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 col-sm-12">
-                <h2 class="text-center">Наш e-mail</h2>
-                <p class="text-center">smartmed73@yandex.ru</p>
+            <div class="row justify-content-around pb-5 pt-5">
+                <div class="col-xl-3 col-sm-12 contacts_cell">
+                    <h2 class="text-center">Наш адрес</h2>
+                    <p class="text-center">г.Ульяновск, ул.Красноармейская, 24</p>
+                    <p class="text-center">Мы находимся рядом с остановкой "Красногвардейская"</p>
+                </div>
+                <div class="col-xl-3 col-sm-12 contacts_cell">
+                    <h2 class="text-center">Наш телефон для записи на прием</h2>
+                    <p class="text-center">+7(8422)42-30-69</p>
+                    <div class="col text-center">
+                        <a class="btn btn-primary" href="appointment.html" role="button">Запись на сайте</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-12 contacts_cell">
+                    <h2 class="text-center">Наш e-mail</h2>
+                    <p class="text-center">smartmed73@yandex.ru</p>
+                    <div class="col text-center">
+                        <a class="btn btn-primary" href="#form_question" role="button">Написать нам</a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row pt-5">
-            <div class="col-12>">
-                <h2 class="text-center mb-5">Форма обратной связи</h2>
+            <div class="row">
+                <div class="col-12>">
+                    <h1 class="text-center mb-5 pt-5">Контролирующие органы</h1>
+                </div>
+                <div class="row justify-content-around pb-5 pt-5">
+                    <div class="col-xl-3 col-sm-12 contacts_cell">
+                        <h5 class="text-center">Управление Роспотребнадзора по Ульяновской области</h5>
+                        <p class="text-center">Телефон: +7(8422)44-29-41</p>
+                    </div>
+                    <div class="col-xl-3 col-sm-12 contacts_cell">
+                        <h5 class="text-center">Территориальный орган Росздравнадзора по Ульяновской области</h5>
+                        <p class="text-center">Телефон: +7(8422)27-89-56</p>
+                    </div>
+                    <div class="col-xl-3 col-sm-12 contacts_cell">
+                        <h5 class="text-center">Министерство здравоохранения Ульяновской области</h5>
+                        <p class="text-center">Телефон: +7(8422)42-08-69</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-4">
-                <form>
-                    <div class="row mb-3">
-                        <label for="inputFio" class="col-sm-2 col-form-label">ФИО</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputFio">
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <label for="inputPhone" class="col-sm-2 col-form-label">Телефон</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputPhone">
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <label for="inputEmail" class="col-sm-2 col-form-label">Эл.почта</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="inputEmail">
-                        </div>
-                    </div>
-                    <div class="form-group row mb-3">
-                        <label for="Textarea1" class="col-sm-2 col-form-label">Текст обращения</label>
-                        <div class="col-sm-10">
-                            <textarea class="form-control" id="Textarea1" rows="3"></textarea>
-                        </div>
-                    </div>
-                    <fieldset class="row mb-3 pt-3">
-                        <legend class="col-form-label col-sm-2 pt-0">Тема обращения</legend>
-                        <div class="col-sm-10">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                <label class="form-check-label" for="gridRadios1">
-                                    Вопрос
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                <label class="form-check-label" for="gridRadios2">
-                                    Благодарность
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option2">
-                                <label class="form-check-label" for="gridRadios3">
-                                    Жалоба
-                                </label>
+            <div class="row pt-5">
+                <div class="col-12">
+                    <h2 class="text-start mb-5">Форма обратной связи</h2>
+                </div>
+            </div>
+            <div class="row justify-content-start" id="form_question">
+                <div class="col-5">
+                    <form>
+                        <div class="row mb-3">
+                            <label for="inputFio" class="col-sm-2 col-form-label">ФИО</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" id="inputFio">
                             </div>
                         </div>
-                    </fieldset>
-                    <button type="submit" class="btn btn-primary">Отправить</button>
-                </form>
+                        <div class="row mb-3">
+                            <label for="inputPhone" class="col-sm-2 col-form-label">Телефон</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" id="inputPhone">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputEmail" class="col-sm-2 col-form-label">Эл.почта</label>
+                            <div class="col-sm-7">
+                                <input type="email" class="form-control" id="inputEmail">
+                            </div>
+                        </div>
+                        <div class="form-group row mb-3">
+                            <label for="Textarea1" class="col-sm-2 col-form-label">Текст обращения</label>
+                            <div class="col-sm-7">
+                                <textarea class="form-control" id="Textarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <fieldset class="row mb-3 pt-3">
+                            <legend class="col-form-label col-sm-2 pt-0">Тема обращения</legend>
+                            <div class="col-sm-7">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="gridRadios1">
+                                        Вопрос
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                    <label class="form-check-label" for="gridRadios2">
+                                        Благодарность
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option2">
+                                    <label class="form-check-label" for="gridRadios3">
+                                        Жалоба
+                                    </label>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
