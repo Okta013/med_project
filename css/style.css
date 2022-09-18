@@ -42,6 +42,10 @@ section {
     margin: 15px auto 30px;
 }
 
+.appointment_content {
+    background-color: #eee;
+}
+
 /*contacts_content*/
 .contacts_content {
     background-color: #eee;
